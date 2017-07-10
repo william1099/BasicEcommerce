@@ -1,0 +1,157 @@
+.jumbotron {
+	background-color:#f4511e;
+	color:white;
+	text-align:center;
+	margin:5px;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ul li  a{
+	display:block;
+	width:200px;
+	background-color:#f1f1f1;
+	color:black;
+	text-decoration:none;
+	padding: 10px 8px;
+}
+li a.active {
+	background-color:#f4511e;
+	color:white;
+	text-decoration:none;
+}
+li a:hover:not(.active) {
+	background-color:#f4511e;
+	color:white;
+	text-decoration:none;
+}
+.navbar li {
+	float:left;
+	margin-left:8px;
+}
+.navbar li .b {
+	width:100px;
+	float:left;
+}
+.pagination {
+	display:block;
+	position:absolute;
+	top:-70px;
+	left:42%;
+}
+.pagination a {
+	text-decoration:none;
+	color:black;
+	background-color:#f1f1f1;
+	float:left;
+	padding:10px 15px;
+	border-radius:5px;
+}
+.pagination a.active {
+	background-color:#f4511e;
+	color:white;
+	text-decoration:none;
+}
+.pagination a:hover:not(.active) {
+	background-color:grey;
+	transition:background-color .3s;
+	text-decoration:none;
+}
+.footer {
+	margin-top:90px;
+	position:relative;
+	padding-top:20px;
+	background-color:#f4511e;
+	color:white;
+	text-align:center;
+	height:70px;
+}
+.sidebar{
+	float:left;
+}
+.clearfix {
+	clear:right;
+}
+.isi {
+	width:400px;
+	float:left;
+}
+.carousel-control.right , .carousel-control.left {
+	background-image:none;
+	color: #f4511e;
+}
+.carousel-indicators li {
+	border-color:#f4511e;
+}
+.carousel-indicators li.active {
+	background-color:#f4511e;
+}
+div.product {
+	background-color:white;
+	width:180px;
+	height:260px;
+	position:relative;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+div.product a {
+	text-align:center;
+	width:100%;
+	text-decoration:none;
+	float:left;
+}
+div a.productimg img {
+	width:240px;
+	height:170px;
+}
+div.product a.productdesc {
+	font-weight:bold;
+	color:black;
+	margin-top:12px;
+}
+div.product div {
+	font-size:18px;
+	color:red;
+	font-weight:bold;
+}
+div.product input[title="tombol"] {
+	line-height:30px;
+	color:white;
+	font-weight:16px;
+	border-top:2px red solid;
+	background-color:orange;
+	width:100%;
+}
+span.tag {
+	border-radius:30px;
+	position:absolute;
+	left:0; top:0;
+	background-color:red;
+	color:white;
+	width:60px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+}
+div.product:hover a.productimg img {
+	opacity:0.7;
+}
+.content {
+	float:left;
+	width:85%;
+}
+.error  {
+	background-color:#FFECEC;
+	margin:0 0 20px 0;
+	border: 1px solid red;
+	box-shadow:1px 0 3px red;
+	padding:10px 15px;
+}
+.header {
+	background-color:#f4511e;
+	height:200px;
+	border-bottom:10px yellow solid;
+}
