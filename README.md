@@ -1,7 +1,6 @@
 # Amajon
-### Simple E-commerce website
+### Simple and Static E-Commerce Website
 
-## By William1099
 
 ![img](https://i.imgur.com/vQxNB8q.jpg)
 
